@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import q from "./images/1.jpg"
+import w from "./images/2.jpg"
+import e from "./images/3.jpg"
+import r from "./images/4.jpg"
+import t from "./images/5.jpg"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="w">
+      <img src={q} alt="wtf"></img>
+      <img src={w} alt="wtf2"></img>
+      <img src={e} alt="wtf3"></img>
+      <img src={r} alt="wtf4"></img>
+      <img src={t} alt="wtf5"></img>
+
+
+      </div>
+    
     </div>
   );
 }

@@ -32,6 +32,8 @@ export function register(config) {
     }
 
     window.addEventListener('load', () => {
+
+      console.log(process.env.PUBLIC_URL, "plop")
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
       if (isLocalhost) {
@@ -94,7 +96,7 @@ function registerValidSW(swUrl, config) {
       };
     })
     .catch(error => {
-      console.error('Error during service worker registration:', error);
+      console.error('Error during service worker registration:', error, "lololool");
     });
 }
 
